@@ -72,9 +72,9 @@ services:
     ports:
       - 4000:4000
       - 3500:3500
-      - 8080:8080
-      - 6060:6060
-      - 9090:9090
+      - 8089:8080
+      - 6069:6060
+      - 9099:9090
     volumes:
       - ./consensus:/consensus
       - ./execution:/execution

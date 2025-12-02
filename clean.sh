@@ -1,3 +1,4 @@
+docker stop -f $(docker ps -a -q)
 docker rm -f $(docker ps -a -q)
-rm -Rf ./consensus/beacondata ./consensus/validatordata ./consensus/genesis.ssz
-rm -Rf ./execution/geth
+sudo rm -Rf ./consensus/beacondata ./consensus/validatordata ./consensus/genesis.ssz
+sudo rm -Rf ./execution/geth
